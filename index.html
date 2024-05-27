@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steflix Media Network</title>
+    <!-- <style type="text/css">
+            body{
+                background-image: url(images/logooo.webp);
+            }
+        </style> -->
+    <!--===CSS===-->
+    <link rel="stylesheet" href="index.css" />
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap font for cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+    <script></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo_name">
+        <img class="logo" src="images/logo.jpeg" alt="STEFLIX MEDIA NETWORK" />
+        <p class="name">
+          <b> STEFLIX MEDIA NETWORK </b>
+        </p>
+      </div>
+      <form class="search-form">
+        <input type="text" placeholder="Search..." name="seearch" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="navLinks">
+        <ul>
+          <b>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="event.html">EVENTS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </b>
+        </ul>
+      </div>
+
+      <i class="fa fa-bars" onclick="showMenu()">Clement</i>
+    </header>
+
+    <div class="text-box">
+      <h1 class="h1">Beyond Photos. Beyond Videos. Beyond Limits.</h1>
+      <p>
+        Tell Your Event's Story and We'll Make it Unforgettable.<br />
+        Where Events Come Alive!!!
+      </p>
+      <a href="" class="hero-btn"> Get Started Today.</a>
+    </div>
+    <br />
+    <div class="mainBody">
+      <!----------Events-------->
+      <section class="events">
+        <h1>Events</h1>
+        <p>Previous and Upcoming</p>
+
+        <div class="row">
+          <div class="event-col">
+            <h3>Previous Event</h3>
+            <p>These are events that have happened already and were a blast</p>
+          </div>
+          <div class="event-col">
+            <h3>Upcoming Event</h3>
+            <p>
+              These are events that are yet to happen live and coloured. Reserve
+              a spot for yourself witha a ticket nowww!!!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- -----------Gallery--------- -->
+      <div class="gallery">
+        <h1>A Gist of Experiences</h1>
+        <p>A glimpse of our previous events</p>
+
+        <div class="row">
+          <div class="gallery-col">
+            <img src="images/newwwww.jpg" />
+            <div class="layer">
+              <h3>AFROCHELLA</h3>
+            </div>
+          </div>
+          <div class="gallery-col">
+            <img src="images/12345.jpg" />
+            <div class="layer">
+              <h3>Young Star Awards</h3>
+            </div>
+          </div>
+          <div class="gallery-col">
+            <img src="images/6789.png" />
+            <div class="layer">
+              <h3>CELEB Night</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------JavaScript for toggle menu------------>
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+      </script>
+    </div>
+
+    <footer>
+      <sub> This page wash published by Clement Cobby Konor. </sub>
+    </footer>
+  </body>
+</html>
